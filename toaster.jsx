@@ -1,6 +1,6 @@
 import { useToast } from "@/components/ui/use-toast";
 import {
-  Toast,
+import { Toaster } from "./toaster.jsx"
   ToastClose,
   ToastDescription,
   ToastProvider,
