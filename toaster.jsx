@@ -1,5 +1,4 @@
-// toaster.jsx (Corrected imports for root folder)
-import { useToast } from "./components/ui/use-toast"; // Must point down to components/ui
+import { useToast } from "./components/ui/use-toast";
 import {
   Toast,
   ToastClose,
@@ -7,7 +6,7 @@ import {
   ToastProvider,
   ToastTitle,
   ToastViewport,
-} from "./components/ui/toast"; // Must point down to components/ui
+} from "./components/ui/toast";
 
 export function Toaster() {
   const { toasts } = useToast();
