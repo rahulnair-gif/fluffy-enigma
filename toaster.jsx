@@ -1,12 +1,12 @@
-import { useToast } from "@/components/ui/use-toast";
+import { useToast } from "./components/ui/use-toast";
 import {
-import { Toaster } from "./toaster.jsx"
+  Toast,
   ToastClose,
   ToastDescription,
   ToastProvider,
   ToastTitle,
   ToastViewport,
-} from "@/components/ui/toast";
+} from "./components/ui/toast";
 
 export function Toaster() {
   const { toasts } = useToast();
@@ -30,4 +30,4 @@ export function Toaster() {
       <ToastViewport />
     </ToastProvider>
   );
-} 
+}
