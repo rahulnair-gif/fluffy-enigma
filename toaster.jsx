@@ -10,7 +10,6 @@ import {
 } from "./components/ui/toast"; // Must point down to components/ui
 
 export function Toaster() {
-export function Toaster() {
   const { toasts } = useToast();
 
   return (
